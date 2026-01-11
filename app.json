@@ -16,7 +16,8 @@
       "bundleIdentifier": "com.anonymous.target"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-font"
     ]
   }
 }
