@@ -1,7 +1,22 @@
 {
   "expo": {
+    "icon": "./src/assets/icon.png",
     "name": "target",
     "slug": "target",
-    "version": "1.0.0"
+    "scheme": "target",
+    "version": "1.0.0",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.target"
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.target"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
